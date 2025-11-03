@@ -1,0 +1,75 @@
+/* style.css -*/   
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #ffeaf0; 
+    text-align: center;
+    padding: 40px;
+}
+/* Header Styling */
+h1 {
+    color: #a83279;
+    margin-bottom: 30px;
+}
+
+/* Table Styling */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 90%;
+    background-color: #fffafc;
+    box-shadow: 0 0 20px rgba(255, 182, 193, 0.4);
+    border-radius: 12px;
+    overflow: hidden;
+}
+/* Table Cell Styling */
+th, td {
+    border: 2px solid #f4b6c2;
+    padding: 15px;
+    text-align: left;
+    vertical-align: top;
+}
+/* Header Cell Styling */
+th {
+    background-color: #f58fb1;
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+}
+
+/* Row Styling */
+tr:nth-child(even) {
+    background-color: #fff0f5;
+}
+
+/* Destination Specific Border Colors */
+tr.seoul td {
+    border-color: #f7a1c4; 
+}
+
+tr.sanjuan td {
+    border-color: #fbc4ab; 
+}
+
+tr.honolulu td {
+    border-color: #f7a9a8; 
+}
+
+/* Link Styling */
+td a {
+    color: #d63384;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Link Hover Effect */
+td a:hover {
+    color: #ff5c8d;
+    text-decoration: underline;
+}
+
+
+tr:hover {
+    background-color: #ffe4ec;
+    transition: background-color 0.3s ease;
+}
